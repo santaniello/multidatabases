@@ -1,0 +1,13 @@
+mongodb:
+  database-1:
+    host: localhost
+    port: 27017
+    database: database1
+  database-2:
+    host: localhost
+    port: 27018
+    database: database2
+
+spring:
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.mongo.MongoAutoConfiguration
